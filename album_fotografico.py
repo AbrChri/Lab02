@@ -69,6 +69,7 @@ def elenco_foto_anno_per_titolo(album, anno):
         Titoli.append(album[anno][i][0])
 
     Titoli_ordinati = sorted(Titoli)
+    return Titoli_ordinati
 
 def main():
     album = {} #Cambiato in dizionario
